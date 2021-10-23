@@ -1,8 +1,3 @@
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Locale;
-
 public class Day1 {
 
 	static int recurseSquare(int n)
@@ -39,8 +34,6 @@ public class Day1 {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// string, number of occurence of string char
         int n= 12;
         System.out.println(recurseSquare(n));    
 	}
