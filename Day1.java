@@ -42,9 +42,7 @@ public class Day1 {
 		// TODO Auto-generated method stub
 		// string, number of occurence of string char
         int n= 12;
-        System.out.println(recurseSquare(n));
-        
-        
+        System.out.println(recurseSquare(n));    
 	}
 
 }
