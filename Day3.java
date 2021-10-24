@@ -1,4 +1,5 @@
 public class Day3 {
+    
     public static int[] intersect(int[] nums1, int[] nums2) {
 		int interectection[] = new int[nums1.length >= nums2.length ? nums2.length : nums1.length];
 		Arrays.fill(interectection, -1);
@@ -26,17 +27,6 @@ public class Day3 {
 	}
 
 	public static void main(String[] args) {
-		/******** DAY 1 ********/
-		int n = 12;
-		System.out.println(recurseSquare(n));
-		/******** DAY 1 ENDS ***/
-
-		/******** DAY 2 ********/
-		int[] nums = { 1, 2, 1, 3, 5, 6, 4 };
-		int res = findPeakElement(nums);
-		System.out.println((res == -1 ? "not found" : res));
-		/******** DAY 2 ENDS ***/
-
 		/******** DAY 3 ********/
 		int[] nums1 = { 1, 2, 2, 3, 1 };
 		int[] nums2 = { 1, 4, 3, 1 };
