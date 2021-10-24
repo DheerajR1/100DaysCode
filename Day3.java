@@ -1,5 +1,7 @@
+import java.util.Arrays;
+
 public class Day3 {
-    
+
     public static int[] intersect(int[] nums1, int[] nums2) {
 		int interectection[] = new int[nums1.length >= nums2.length ? nums2.length : nums1.length];
 		Arrays.fill(interectection, -1);
