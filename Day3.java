@@ -37,5 +37,5 @@ public class Day3 {
 			System.out.println(res1[i] != -1 ? res1[i] : "");
 		}
 		/******** DAY 3 ENDS ***/
-	}
+	}   
 }
