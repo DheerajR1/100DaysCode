@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Say4 {
+public class Day4 {
     
     public static int lastStoneWeight(int[] stones) {
 		Arrays.sort(stones);
