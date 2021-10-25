@@ -15,7 +15,14 @@ public class Day4 {
 		}
 		while(data.size() > 1) {
 			Collections.sort(data);
+			if(data.get(data.size() -1) == data.get(data.size()-2)) {
+				data.remove(data.size()-1);
+			} else {
+				data.set(data.size()-2, data.get(data.size()-1) - data.get(data.size()-2));
+			}
+			data.remove(data.size() -1);
 		}
+		return data.size() == 1? data.get(0):0;
 	}
     public static void main(String[] args) {
 		/******** DAY 4 ********/     
